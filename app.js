@@ -115,7 +115,7 @@ const coreValues = [
   
   // Function to show the values
 function showValues(start, end) {
-    valuesContainer.innerHTML = "";
+    valuesContainer.innerHTML = " ";
     for (let i = start; i < end; i++) {
     const bubble = createBubble(coreValues[i]);
     valuesContainer.appendChild(bubble);
